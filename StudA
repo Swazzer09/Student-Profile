@@ -1,0 +1,23 @@
+public class studA 
+{
+    String Fname;
+    String Lname;
+     int x;
+    double GPA;
+    String Dmajor;
+
+public studA(String Fname, 
+String Lname, int x, 
+double GPA, String Dmajor) {
+    this.Fname = Fname;
+    this.Lname = Lname;
+    this.x = x;
+    this.GPA = GPA;
+    this.Dmajor = Dmajor;
+}
+   public int year()
+   {
+      x = x+1;
+      return x;
+   }
+}
