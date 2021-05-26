@@ -1,0 +1,18 @@
+public class Student {
+    public static void main(String[] args) {
+        studA one = new studA("Swapnil","Shelatkar",2020,6.84,"ETRX" );
+        studA two = new studA("Viraj","Dhuri",2021,6.844,"TXE" );
+        
+        System.out.println(one.Fname + " "+ one.Lname + " - GPA = " + one.GPA);
+        System.out.println(two.Fname + " "+two.Lname  + " - GPA = " + two.GPA); //end 1
+
+        System.out.println("Stuent 1 Course " + one.Dmajor);
+        System.out.println("Student 2 Course " + two.Dmajor); //end 2
+
+       one.year(); // start 1
+        System.out.println("Expected Graduation Year for Student one: " + one.x);
+
+       two.year(); // start 2
+       System.out.println("Expected Graduation Year for Student two: " + two.x);
+    }
+}
